@@ -1,0 +1,64 @@
+# OS & editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.idea/
+.vscode/
+__pycache__/
+*.py[cod]
+
+# Local env & secrets (NEVER commit!)
+.env
+.env.*
+*.p12
+*.pfx
+*.jks
+*.keystore
+*.pem
+*.key
+*.pass
+
+# Build outputs & logs
+build/
+dist/
+outputs/
+*.apk
+*.idsig
+*.dex
+*.class
+*.log
+
+# Compiled native binaries & third-party toolchains
+native/bin/
+native/build/
+native/zlib-*
+native/zlib.tar.gz
+*.so
+sdk/
+ndk/
+zig-*
+zig-cache/
+platform-tools/
+
+# Proprietary vendor components & OTA images (NEVER commit!)
+vendor/*
+!vendor/.gitkeep
+MoseyApp.apk
+mosey_server
+manifest_mosey.xml
+privapp-permissions-com.google.android.mosey.xml
+default-permissions-com.google.android.mosey.xml
+hiddenapi-allowlist-mosey.xml
+*.tar
+*.tar.gz
+*.tar.xz
+*.img
+*.bin
+*.pb
+*.data
+*.part
+*.zip
+
+# Keep tracked configuration
+!scripts/config.env

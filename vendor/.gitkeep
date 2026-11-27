@@ -1,0 +1,6 @@
+# Place user-extracted official CPH2841 components here (gitignored).
+# Run tools/extract_vendor.py to verify SHA-256 digests and generate:
+#   - vendor/privileged-app.tar
+#   - vendor/daemon.tar
+#   - vendor/manifest_mosey.xml
+# See README.md for instructions.
